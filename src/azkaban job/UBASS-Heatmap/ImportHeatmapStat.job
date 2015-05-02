@@ -1,0 +1,4 @@
+type=command
+name=ImportHeatmapStat.sh
+command=sh ExecImportMysqlScript.sh ${name} ${statdate}
+dependencies=CreateMysqlTables
